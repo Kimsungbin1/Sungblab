@@ -112,9 +112,8 @@
     transform: rotate(45deg) translate(-5px, -6px);
   }
   .top {
-    background-image: url('https://source.unsplash.com/random');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-image: url('https://picsum.photos/1920/1080');
+
     background-position: center center;
     background-size: cover;
     -webkit-text-stroke-width: 2px;
@@ -122,8 +121,8 @@
     font-family: "Poppins", sans-serif;
     font-size: 22px;
     color: #ffffff;
-    padding-top: 10rem;
-    padding-bottom: 20rem;
+    padding-top: 12rem;
+    padding-bottom: 22rem;
     text-align: center;
   }
   .intro {
