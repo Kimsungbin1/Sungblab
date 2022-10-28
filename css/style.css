@@ -106,7 +106,7 @@
     transform: rotate(45deg) translate(-5px, -6px);
   }
   .top {
-    background-image: url('https://picsum.photos/1920/1080');
+    background-image: url('https://picsum.photos/seed/picsum/1920/1080');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
