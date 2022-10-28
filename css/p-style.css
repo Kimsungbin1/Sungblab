@@ -20,7 +20,7 @@ h1 {
   }
   nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     /* 요소의 최소 너비 지정, height 속성 무시
       vh단위는 브라우저 안쪽 높이(window.innerHeight)을 기준으로

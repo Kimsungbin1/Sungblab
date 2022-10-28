@@ -6,7 +6,7 @@
   
   nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     /* 요소의 최소 너비 지정, height 속성 무시
       vh단위는 브라우저 안쪽 높이(window.innerHeight)을 기준으로
@@ -17,13 +17,7 @@
     font-family: "Poppins", sans-serif;
   }
   
-  .logo {
-    color: rgb(226, 226, 226);
-    text-transform: uppercase;
-    /* 각 글자 2px씩 간격을 줌*/
-    letter-spacing: 2px;
-    font-size: 18px;
-  }
+  
   
   .nav-links {
     width: 40%;
