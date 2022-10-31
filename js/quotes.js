@@ -30,6 +30,15 @@ const quotes = [
   {
     quote:"기회는 사라지지 않는다. 니가 놓치는건 딴놈이 잡는다.",
   },
+  {
+    quote:"말한마디로 천냥 빛 값는다.",
+  },
+  {
+    quote:"입은 재앙을 부르는 문이요 혀는 몸을 자르는 칼이다. 입을 닫고 혀를 깊이 감춘다면 가는 곳마다 몸을 편하게 할 수 있다.",
+  },
+  {
+    quote:"당신이 하는일 모두다 잘되길 바란다. -웹사이트 제작자가-",
+  },
 ];
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 quote.innerText = todaysQuote.quote;
