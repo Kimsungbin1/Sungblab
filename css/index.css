@@ -91,10 +91,10 @@ a {
 
 body {
     background-image: url('https://picsum.photos/1920/1080');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
     background-size: cover;
+
+    width: 100%;
+    height: auto;
 }
 
 .top {
@@ -115,7 +115,7 @@ body {
 }
 
 p {
-    width: 800px;
+    width: 390px;
     margin: auto;
     text-align: center;
     font-family: "Nanum Gothic";
@@ -124,8 +124,8 @@ p {
 .p1 {
     background-color:rgba(255, 255, 255, 0.7);
     border-radius: 10px;
-    font-size: 60px;
-    width: 425px;
+    font-size: 50px;
+    width: 390px;
   }
   .p2 {
     background-color:rgba(255, 255, 255, 0.7);
@@ -151,6 +151,7 @@ p {
     margin: auto;
     text-align: center;
     font-size: 35px;
+    width: 390px;
 
   }
 
