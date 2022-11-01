@@ -52,7 +52,20 @@
     <span></span>
     <span></span>
     <script src="js/quotes.js"></script></section>
-
+    <!--  input은 항상 form안에 있어야 함.-->
+    <form id="login-form"> 
+      <input 
+          required            
+          maxlength="15" 
+          type="text" 
+          placeholder="What is your name?">
+      <button>Log In</button>
+  </form>  
+  <!-- form이 사라지고 출력 될 h1-->
+  <h1 id="greeting" class="hidden"></h1>
+  <!-- 자바 스크립트 연결 -->
+  <script src="js/greeting.js"></script>
+</div>
     <section><div class="top">
       <p class="p2">새로고침 할때마다 바뀝니다.</p>
     </section>

@@ -206,4 +206,15 @@ p {
     padding-top: 23rem;
 }
 
+.hidden {
+    display: none;
+}
+ #greeting {
+    text-align: center;
+    text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);
+ }
+
+ #login-form {
+    text-align: center;
+ }
 
