@@ -146,3 +146,13 @@ button:hover {
   /* 첫 번째 선부터 3번째 선까지 지정 */
   grid-column: 1/3;
 }
+ 
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+}
