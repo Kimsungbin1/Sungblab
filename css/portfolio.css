@@ -153,6 +153,19 @@ h1 {
 }
 
 h2 {
+  font-size: 19px;
   text-align: center;
   color: black;
+}
+
+.a1 {
+  text-align: center;
+  color: black;
+}
+
+.colorscripter-code {
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
