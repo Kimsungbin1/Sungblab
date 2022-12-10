@@ -7,7 +7,7 @@ a {
     font-family: 'Nanum Gothic';
     text-decoration: none;
     color: rgb(255, 255, 255);
-    
+
 }
 
 .navbar {
@@ -32,6 +32,7 @@ a {
 .navbar__menu li {
     padding: 8px 12px;
 }
+
 .navbar__menu li:hover {
     background-color: grey;
     border-radius: 4px;
@@ -62,21 +63,25 @@ a {
         align-items: flex-start;
         padding: 8px 24px;
     }
+
     .navbar__menu {
         display: none;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
+
     .navbar__menu li {
         width: 100%;
         text-align: center;
     }
+
     .navbar__links {
         display: none;
         justify-content: center;
         width: 100%;
     }
+
     .navbar__toggleBtn {
         display: block;
     }
@@ -107,6 +112,7 @@ body {
     padding-top: 4rem;
     text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);
 }
+
 .intro {
     font-size: 45px;
 }
@@ -116,20 +122,24 @@ p {
     font-family: "Nanum Gothic";
     font-weight: bold;
     text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);
-    
+
 }
+
 .p1 {
     border-radius: 10px;
     font-size: 50px;
-  }
-  .p2 {
+}
+
+.p2 {
     border-radius: 10px;
     font-size: 25px;
 }
+
 .p3 {
     border-radius: 10px;
     font-size: 12px;
 }
+
 #quote {
     border-radius: 10px;
     text-align: center;
@@ -138,16 +148,15 @@ p {
     margin: auto;
     text-align: center;
     font-size: 35px;
-  }
+}
 
-  * {
+* {
     box-sizing: border-box;
 }
 
 .clo {
     padding-bottom: 20px;
     padding-top: 20px
-    
 }
 
 .clock {
@@ -156,7 +165,7 @@ p {
     text-align: center;
     padding-bottom: 15px;
     width: 280px;
-    background-color:rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     font-family: 'Nanum Gothic';
 
@@ -209,12 +218,12 @@ p {
 .hidden {
     display: none;
 }
- #greeting {
+
+#greeting {
     text-align: center;
     text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);
- }
+}
 
- #login-form {
+#login-form {
     text-align: center;
- }
-
+}
