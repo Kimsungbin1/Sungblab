@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: 'Nanum Gothic';
@@ -5,9 +6,11 @@ body {
 
 a {
   font-family: 'Nanum Gothic';
-  text-decoration: none;
   color: rgb(255, 255, 255);
-  
+}
+
+.a2 {
+  text-decoration: none;
 }
 
 .navbar {
@@ -16,6 +19,9 @@ a {
   align-items: center;
   background-color: rgb(22, 22, 22);
   padding: 8px 12px;
+  font-family: 'Nanum Gothic';
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 .navbar__logo {
