@@ -1,160 +1,60 @@
-@font-face {
-    font-family: 'KIMM_Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
 body {
-    margin: 0;
-    font-family: 'KIMM_Bold';
-}
-
-a {
-    font-family: 'KIMM_Bold';
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(22, 22, 22);
-    padding: 8px 12px;
-}
-
-.navbar__logo {
-    font-size: 24px;
-
-}
-
-.navbar__menu {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-}
-
-.navbar__menu li {
-    padding: 8px 12px;
-}
-
-.navbar__menu li:hover {
-    background-color: grey;
-    border-radius: 4px;
-}
-
-.navbar__links {
-    list-style: none;
-    padding-left: 0;
-    color: teal;
-    display: flex;
-}
-
-.navbar__links li {
-    padding: 8px 12px;
-}
-
-.navbar__toggleBtn {
-    display: none;
-    position: absolute;
-    right: 32px;
-    font-family: 'KIMM_Bold';
-    font-size: 24px;
-}
-
-@media screen and (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 8px 24px;
-    }
-
-    .navbar__menu {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .navbar__menu li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .navbar__links {
-        display: none;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .navbar__toggleBtn {
-        display: block;
-    }
-
-    .navbar__menu.active,
-    .navbar__links.active {
-        display: flex;
-    }
-}
-
-/*네비바 부분*/
-
-body {
-    background-image: url('https://picsum.photos/1920/1080');
     background-size: cover;
+    background-image: url('https://picsum.photos/1920/1080');
 }
+
+
 
 .top {
-    font-family: "KIMM_Bold";
-    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
     color: #000000;
     padding-top: 2rem;
     text-align: center;
-    text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);
+
 }
 
 .quo {
     padding-top: 4rem;
-    text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);
+
 }
 
 .intro {
-    font-size: 45px;
+    font-size: 3rem;
 }
 
 p {
     text-align: center;
-    font-family: "KIMM_Bold";
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);
-
 }
 
 .p1 {
-    border-radius: 10px;
-    font-size: 50px;
+    font-size: 3rem;
+    padding-bottom: 20rem;
+    color: #57c5b5;
+
 }
 
 .p2 {
-    border-radius: 10px;
-    font-size: 25px;
+    font-size: 2rem;
+
 }
 
 .p3 {
-    border-radius: 10px;
-    font-size: 12px;
+
+    font-size: 1rem;
 }
 
 #quote {
-    border-radius: 10px;
+    color: #57c5b5;
     text-align: center;
-    font-family: "Arial Black", sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     margin: auto;
     text-align: center;
-    font-size: 35px;
+    font-size: 3rem;
 }
 
 * {
@@ -162,8 +62,8 @@ p {
 }
 
 .clo {
-    padding-bottom: 20px;
-    padding-top: 20px
+    padding-bottom: 1.8rem;
+    padding-top: 1.8rem;
 }
 
 .clock {
@@ -172,9 +72,8 @@ p {
     text-align: center;
     padding-bottom: 15px;
     width: 280px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    font-family: 'KIMM_Bold';
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -183,7 +82,7 @@ p {
 }
 
 .clock span {
-    color: rgb(0, 0, 0);
+    color: #57c5b5;
 }
 
 .txt_lg {
@@ -217,28 +116,37 @@ p {
     margin-left: -3px;
 }
 
-.copy {
-    font-size: 11px;
-    padding-top: 23rem;
-}
-
 .hidden {
     display: none;
 }
 
 #greeting {
     text-align: center;
-    text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);
-    
+
 }
 
 #login-form {
     text-align: center;
     padding-top: 15px;
-    
+
 }
 
-button {
-    border-radius: 10px;
-    
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    background-color: #57c5b5;
+    display: flex;
+    align-items: center;
 }
+
+#back {
+width: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 4rem 0;
+    margin: 0 auto;
+    top: 12.5rem;
+}
+

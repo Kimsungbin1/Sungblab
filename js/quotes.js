@@ -1,37 +1,37 @@
 const quote = document.querySelector("#quote span:first-child");
 const quotes = [
   {
-    quote:"내 인생은 돈이다 -김성빈-",
+    quote:"My life is money -sungbin",
   },
   {
-    quote:"시간은 곧 돈이다.",
+    quote:"Time is money",
   },
   {
-    quote:"힘들지만 어쩌겠습니까, 해내야죠. -박은빈-",
+    quote:"Don't dwell on the past",
   },
   {
-    quote:"고통없인 얻는것도 없다.",
+    quote:"No pain, no gain",
   },
   {
-    quote:"마이동풍 (馬耳東風) 너의길을 가라.",
+    quote:"You only live once",
   },
   {
-    quote:"인생만사 塞翁之馬(새옹지마).",
+    quote:"I'm still hungry -Guus Hiddink",
   },
   {
-    quote:"내 인생에 포기란 없다.",
+    quote:"The unexamined life is not worth living",
   },
   {
-    quote:"돈은 가난은 사람을 현명하게도 처절하게도 만든다.",
+    quote:"Be famous and they will give you tremendous applause when you are actually pooping -Andy Warhol",
   },
   {
-    quote:"기회는 사라지지 않는다. 니가 놓치는건 딴놈이 잡는다.",
+    quote:"1. never lose money 2. never forget rulr No.1 -Warren Buffett",
   },
   {
-    quote:"말한마디로 천냥 빛 값는다.",
+    quote:"Successful people always have two things on their lips",
   },
   {
-    quote:"당신이 하는일 모두다 잘되길 바란다. -웹사이트 제작자가-",
+    quote:"Life is all about timing",
   },
 ];
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];

@@ -10,7 +10,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SB project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/shared.css" />
   <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/android-icon-72x72.png">
@@ -30,25 +34,26 @@
 </head>
 
 <body>
-  <!-- 네비바-->
-  <nav class="navbar">
-    <div class="navbar__logo">
-      <a href="index.html"><img src="assets/logo.png"></a>
-    </div>
-    <ul class="navbar__menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html">portfolio</a></li>
-    </ul>
-    <ul class="navbar__links">
-      <li><a class="fa-brands fa-instagram 2x" href="https://www.instagram.com/project.sb/"></a></li>
-    </ul>
+  <header>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <a href="index.html"><img src="assets/logo.png">SB project</a>
+      </div>
+      <ul class="navbar__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">portfolio</a></li>
+      </ul>
+      <ul class="navbar__links">
+        <li><a class="fa-brands fa-instagram fa-2x" href="https://www.instagram.com/project.sb/"></a></li>
+      </ul>
 
-    <a href="#" class="navbar__toggleBtn"><i class="fas fa-bars"></i></a>
-  </nav>
-  <!-- 네비바-->
+      <a href="#" class="navbar__toggleBtn"><i class="fas fa-bars"></i></a>
+    </nav>
+  </header>
+
   <main>
-    <script src="js/index.js"></script>
+<section id="back"> <script src="js/index.js"></script>
     <!-- 명언추천-->
     <section class="quo">
       <div id="quote">
@@ -89,12 +94,12 @@
         </div>
     </section>
     <p class="p1">WELCOME TO MY WEBSITE</p>
-    </div>
+    </div></section>
+   
   </main>
 </body>
 <footer>
-  <div class="copy">
-    <p class="p3">@Developed by Sungbin</p3>
+    <p class="p3">@Developed by Sungbin</p>
 </footer>
 
 </html>
