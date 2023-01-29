@@ -22,10 +22,7 @@ const quotes = [
     quote:"The unexamined life is not worth living",
   },
   {
-    quote:"Be famous and they will give you tremendous applause when you are actually pooping -Andy Warhol",
-  },
-  {
-    quote:"1. never lose money 2. never forget rulr No.1 -Warren Buffett",
+    quote:"1. never lose money 2. never forget rule No.1 -Warren Buffett",
   },
   {
     quote:"Successful people always have two things on their lips",
