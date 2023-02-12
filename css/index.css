@@ -146,6 +146,14 @@ form {
   border-radius: 6px;
 }
 
+#remaining-chars.warning {
+    color:rgb(211, 109, 26);
+  }
+
+  input.warning {
+    background-color: rgb(248, 130, 109);
+  }
+
 button {
   text-align: center;
   font: inherit;
