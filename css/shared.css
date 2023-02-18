@@ -3,6 +3,7 @@ body {
     font-family: 'Lobster', cursive;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    width: 100%;
 }
 
 a {
