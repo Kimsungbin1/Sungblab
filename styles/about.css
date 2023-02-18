@@ -1,0 +1,27 @@
+p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3rem
+}
+.p3 {
+font-size: 1rem;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    background-color: #57c5b5;
+    display: flex;
+    align-items: center;
+  }
+
+#disqus_thread {
+    margin-bottom: 40rem;
+}
+
+body {
+  background-color: rgb(243, 227, 255);
+}

@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.a1 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #57c5b5;
+  padding: 0.3rem;
+  border-radius: 6px;
+}
+
+.a1:hover {
+  background-color: #234742;
+}
+
+p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  background-color: #57c5b5;
+  display: flex;
+  align-items: center;
+}
+
+#back {
+  width: auto;
+  background-color: rgb(243, 227, 255);
+  text-align: center;
+  padding: 4rem 0 30rem;
+  margin: 0 auto;
+}

@@ -17,8 +17,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css" />
-  <link rel="stylesheet" href="css/shared.css" />
   <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/android-icon-72x72.png">
@@ -35,6 +33,12 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="/styles/shared.css" />
+  <link rel="stylesheet" href="/styles/index.css" />
+        <script src="/scripts/clock.js" defer></script>
+        <script src="/scripts/quotes.js" defer></script>
+        <script src="/scripts/greeting.js" defer></script>
+        <script src="/scripts/nav.js" defer></script>
 </head>
 
 <body>
@@ -59,13 +63,10 @@
 
   <main>
     <section id="back">
-      <script src="js/index.js"></script>
-
       <section class="quo">
         <div id="quote">
           <span></span>
           <span></span>
-          <script src="js/quotes.js"></script>
       </section>
 
       <form id="login-form">
@@ -80,8 +81,6 @@
       </form>
 
       <h1 id="greeting" class="hidden"></h1>
-
-      <script src="js/greeting.js"></script>
       </div>
       <section>
         <div class="top">
