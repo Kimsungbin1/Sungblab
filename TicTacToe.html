@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="Sungblab" />
+    <meta name="description" content="this is sungblab site">
+    <meta property="og:description" content="this is sungblab site">
+    <meta property="og:image" content="https://sungblab.netlify.app/assets/logo.png">
+    <meta property="og:url" content="https://sungblab.netlify.app" />
+    <meta name="google-site-verification" content="LYN3Q4GsUBltxZkN5lpMVjB64HQfC62kq0k1M0zW5dY" />
+    <meta name="naver-site-verification" content="96f221db0976133427f9e06c49a65e8aad4493a9" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <title>Sungblab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/overlay.css" />
+    <link rel="stylesheet" href="/styles/config.css" />
+    <link rel="stylesheet" href="/styles/game.css" />
+    <link rel="stylesheet" href="css/shared.css" />
+    <script src="/scripts/config.js" defer></script>
+    <script src="/scripts/game.js" defer></script>
+    <script src="/scripts/app.js" defer></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/android-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/android-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/android-icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <div id="backdrop"></div>
+
+    <header>
+      <nav class="navbar">
+        <div class="navbar__logo">
+          <a href="index.html"><img src="assets/logo.png">Sungblab</a>
+        </div>
+        <ul class="navbar__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">portfolio</a></li>
+          <li><a href="Tic Tac Toe.html">Tic Tac Toe</a></li>
+        </ul>
+        <ul class="navbar__links">
+          <li><a class="fa-brands fa-instagram fa-2x" href="https://www.instagram.com/sungblab/" target="_blank"></a></li>
+        </ul>
+  
+        <a href="#" class="navbar__toggleBtn"><i class="fas fa-bars"></i></a>
+      </nav>
+    </header>
+    <section id="main-header">
+      <h1>Play Tic, Tac, Toe</h1>
+      <p>Enjoy!!</p>
+    </section>
+    <main>
+      <aside class="modal" id="config">
+        <h2>Choose your name</h2>
+        <form>
+          <div class="form">
+            <label for="playername">Player name</label>
+            <input type="text" name="username" id="playername" required />
+          </div>
+          <div>
+            <button type="reset" class="btn btn-alt" id="cancel-btn">
+              Cancel
+            </button>
+            <button type="submit" class="btn">Confirm</button>
+          </div>
+        </form>
+      </aside>
+      <section id="game-setting">
+        <ol>
+          <li>
+            <article id="player-1-data">
+              <h2>Player 1</h2>
+              <h3>PLAYER NAME</h3>
+              <p class="symbol">X</p>
+              <button class="btn btn-alt" id="edit-p1" data-playerid="1">
+                Edit
+              </button>
+            </article>
+          </li>
+
+          <li>
+            <article id="player-2-data">
+              <h2>Player 2</h2>
+              <h3>PLAYER NAME</h3>
+              <p class="symbol">O</p>
+              <button class="btn btn-alt" id="edit-p2" data-playerid="2">
+                Edit
+              </button>
+            </article>
+          </li>
+        </ol>
+        <button class="btn" id="start-game-btn">Start New Game</button>
+      </section>
+      <section id="active-game">
+        <article id="game-over">
+          <h2>You won, <span id="winner">PLAYER NAME</span>!</h2>
+          <p>Click "start New Game" above, to start a new game!</p>
+        </article>
+
+        <p>It's your turn <span id="active-pname">PLAYER NAME</span>!</p>
+        <ol id="game-board">
+          <li data-col="1" data-row="1"></li>
+          <li data-col="2" data-row="1"></li>
+          <li data-col="3" data-row="1"></li>
+
+          <li data-col="1" data-row="2"></li>
+          <li data-col="2" data-row="2"></li>
+          <li data-col="3" data-row="2"></li>
+
+          <li data-col="1" data-row="3"></li>
+          <li data-col="2" data-row="3"></li>
+          <li data-col="3" data-row="3"></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <p class="p3">@Developed by Sungbin</p>
+    </footer>
+  </body>
+</html>
