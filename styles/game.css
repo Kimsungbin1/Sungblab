@@ -3,6 +3,10 @@
     margin: 2rem 0 5rem 0;
     display: none;
 }
+ 
+p {
+    color: #eee;
+}
 
 #game-over {
     width: 90%;
@@ -22,6 +26,7 @@
 }
 
 #active-pname {
+    color: #eee;
     font-weight: bold;
     color: #57c5b5;
 }
@@ -38,7 +43,7 @@
 }
 
 #game-board li {
-    background-color:  rgb(215, 187, 247);
+    background-color:  #eee;
     border-radius: 2px;
     cursor: pointer;
     display: flex;

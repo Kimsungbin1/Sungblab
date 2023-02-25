@@ -2,10 +2,20 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
     color: rgb(44, 41, 44);
-    background-color: rgb(247, 239, 247);
+    background-color: #171717
   }
   
+  @media (max-width: 1000px) {
+    #main-header {
+      width: 100%;
+      border-radius: 0rem;
+    }
+  }
+
   #main-header {
+    margin: auto;
+    width: 70%;
+    border-radius: 0.5rem;
     background-color: #57c5b5;
     color: white;
     padding: 2rem 5%;
@@ -44,21 +54,18 @@ body {
     font-size: 1.5rem;
   }
 
+ .p3 {
+  font-size: 16px;
+ }
+
   footer {
+    color: #eee;
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
-    background-color: #57c5b5;
     display: flex;
     align-items: center;
-  }
-  
-  #back {
-    width: auto;
-    background-color: rgb(243, 227, 255);
-    text-align: center;
-    padding: 4rem 0 30rem;
-    margin: 0 auto;
+    font-size: 16px;
   }
   
