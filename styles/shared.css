@@ -14,14 +14,14 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-/* .navbar {
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
 
     padding: 8px 12px;
     
-} */
+}
 
 .navbar__logo a {
 display: flex;
@@ -74,6 +74,7 @@ nav img {
 
 @media screen and (max-width: 800px) {
     .navbar {
+        display: inline-block;
         flex-direction: column;
         align-items: flex-start;
         padding: 8px 24px;
