@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Lobster', cursive;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
@@ -24,7 +24,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 .navbar__logo a {
-
 display: flex;
 align-items: center;
 font-size: 2.5rem;
