@@ -14,14 +14,14 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
 
     padding: 8px 12px;
     
-}
+} */
 
 .navbar__logo a {
 display: flex;
