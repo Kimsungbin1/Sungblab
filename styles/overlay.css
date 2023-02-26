@@ -21,10 +21,10 @@
       display: none;
   }
   
-  @media (max-width: 1000px) {
+  @media (min-width: 48rem) {
     .modal {
       left: calc(50% -20rem);
-      width: 100%;
+      width: 40rem;
     }
   }
   
