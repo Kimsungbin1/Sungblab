@@ -22,9 +22,6 @@ const quotes = [
     quote:"The unexamined life is not worth living",
   },
   {
-    quote:"Successful people always have two things on their lips",
-  },
-  {
     quote:"Life is all about timing",
   },
 ];
