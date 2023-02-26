@@ -73,6 +73,7 @@ nav img {
 
 @media screen and (max-width: 800px) {
     .navbar {
+        display: inline;
         flex-direction: column;
         align-items: flex-start;
         margin: 0;
@@ -107,7 +108,7 @@ nav img {
     }
 
     .navbar__toggleBtn {
-        display: block;
+        display: inline
     }
 
     .navbar__menu.active,
