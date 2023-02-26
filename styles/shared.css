@@ -108,7 +108,7 @@ nav img {
     }
 
     .navbar__toggleBtn {
-        display: inline
+        display: inline;
     }
 
     .navbar__menu.active,
