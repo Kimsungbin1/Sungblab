@@ -1,36 +1,34 @@
-
-const greeting = document.querySelector('#greeting');
+// JavaScript
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input[name='username']");
+const greeting = document.querySelector("#greeting");
 const PNIE = document.getElementById("p-name");
-const reaminchar = document.getElementById("remain");
+const remainChar = document.getElementById("remain");
 const HIDDEN_CLASSNAME = "hidden";
-
 
 function update(event) {
   const entered = event.target.value;
   const length = entered.length;
+  const remainChars = 15 - length;
 
-  const reaminchars = 15 - length;
+  remainChar.textContent = remainChars;
 
-  reaminchar.textContent = reaminchars;
-
-  if(reaminchars <= 4) {
-    reaminchar.classList.add('warning');
+  if(remainChars <= 4) {
+    remainChar.classList.add('warning');
     PNIE.classList.add('warning');
   } else {
-reaminchar.classList.remove('warning');
-PNIE.classList.remove('warning');
+    remainChar.classList.remove('warning');
+    PNIE.classList.remove('warning');
   }
 }
 
 PNIE.addEventListener("input", update);
 greeting.classList.add(HIDDEN_CLASSNAME);
 
-
-function onLoginsubmit(event) {
+function onLoginSubmit(event) {
   event.preventDefault();
 
   const username = loginInput.value;
-
   loginForm.classList.add(HIDDEN_CLASSNAME);
 
   fetch('/', {
@@ -51,6 +49,60 @@ function encode(data) {
     .join('&');
 }
 
-loginForm.addEventListener("submit", onLoginsubmit);
+loginForm.addEventListener("submit", onLoginSubmit);
+
+
+// const PNIE = document.getElementById("p-name");
+// const reaminchar = document.getElementById("remain");
+// const HIDDEN_CLASSNAME = "hidden";
+// function update(event) {
+//   const entered = event.target.value;
+//   const length = entered.length;
+
+  
+//   const greeting = document.querySelector('#greeting');
+//   const reaminchars = 15 - length;
+
+//   reaminchar.textContent = reaminchars;
+
+//   if(reaminchars <= 4) {
+//     reaminchar.classList.add('warning');
+//     PNIE.classList.add('warning');
+//   } else {
+// reaminchar.classList.remove('warning');
+// PNIE.classList.remove('warning');
+//   }
+// }
+
+// PNIE.addEventListener("input", update);
+// greeting.classList.add(HIDDEN_CLASSNAME);
+
+
+// function onLoginsubmit(event) {
+//   event.preventDefault();
+
+//   const username = loginInput.value;
+
+//   loginForm.classList.add(HIDDEN_CLASSNAME);
+
+//   fetch('/', {
+//     method: 'POST',
+//     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+//     body: encode({ 'form-name': 'login-form', 'username': username })
+//   })
+//   .then(() => {
+//     greeting.innerText = "Hello " + username;
+//     greeting.classList.remove(HIDDEN_CLASSNAME);
+//   })
+//   .catch(error => console.error(error));
+// }
+
+// function encode(data) {
+//   return Object.keys(data)
+//     .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+//     .join('&');
+// }
+
+// loginForm.addEventListener("submit", onLoginsubmit);
 
 
