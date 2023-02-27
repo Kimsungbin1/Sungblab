@@ -66,7 +66,7 @@
           <span></span>
           <span></span>
       </section>
-
+<!-- 
       <form id="login-form">
         <div>     
           <label for="p-name"></label>
@@ -76,12 +76,17 @@
         </span> </div>
 
         <button>Log In</button>
-      </form>
+      </form> -->
 
       <form id="login-form" name="contact" method="POST" data-netlify="true">
         <p>
-          <label>Your Name: <input type="text" name="name" /></label>
+          <label for="p-name">
+          <input id="p-name" type="text" name="name" placeholder="What is your name?"/></label>
         </p>
+        <p>
+          <span id="char">
+            <span id="remain">15</span>/15
+          </span>
         <p>
           <button type="submit">Send</button>
         </p>
