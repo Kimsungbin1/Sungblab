@@ -17,7 +17,7 @@ const HIDDEN_CLASSNAME = "hidden";
 //   greeting.classList.remove(HIDDEN_CLASSNAME);
 // }
 
-loginForm.addEventListener("submit",);
+loginForm.addEventListener("submit");
 
 function update(event) {
   const entered = event.target.value;
