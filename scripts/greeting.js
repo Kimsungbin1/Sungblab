@@ -51,6 +51,6 @@ function encode(data) {
     .join('&');
 }
 
-// loginForm.addEventListener("submit", onLoginsubmit);
+loginForm.addEventListener("submit", onLoginsubmit);
 
 
