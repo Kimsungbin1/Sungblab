@@ -1,42 +1,23 @@
-// const loginForm = document.querySelector("#login-form");
-// const loginInput = document.querySelector("#login-form input");
-// const greeting = document.querySelector("#greeting");
-// const PNIE = document.getElementById("p-name");
-// const reaminchar = document.getElementById("remain");
+const PNIE = document.getElementById("p-name");
+const reaminchar = document.getElementById("remain");
+function update(event) {
+  const entered = event.target.value;
+  const length = entered.length;
 
-// const HIDDEN_CLASSNAME = "hidden";
+  const reaminchars = 15 - length;
 
-// function onLoginsubmit(event) {
-//   event.preventDefault();
+  reaminchar.textContent = reaminchars;
 
-//   const username = loginInput.value;
+  if(reaminchars <= 4) {
+    reaminchar.classList.add('warning');
+    PNIE.classList.add('warning');
+  } else {
+reaminchar.classList.remove('warning');
+PNIE.classList.remove('warning');
+  }
+}
 
-//   loginForm.classList.add(HIDDEN_CLASSNAME);
-
-//   greeting.innerText = "Hello " + username;
-//   greeting.classList.remove(HIDDEN_CLASSNAME);
-// }
-
-// loginForm.addEventListener("submit", onLoginsubmit);
-
-// function update(event) {
-//   const entered = event.target.value;
-//   const length = entered.length;
-
-//   const reaminchars = 15 - length;
-
-//   reaminchar.textContent = reaminchars;
-
-//   if(reaminchars <= 4) {
-//     reaminchar.classList.add('warning');
-//     PNIE.classList.add('warning');
-//   } else {
-// reaminchar.classList.remove('warning');
-// PNIE.classList.remove('warning');
-//   }
-// }
-
-// PNIE.addEventListener("input", update);
+PNIE.addEventListener("input", update);
 
 const greeting = document.querySelector('#greeting');
 greeting.classList.add(HIDDEN_CLASSNAME);
