@@ -6,16 +6,12 @@ const reaminchar = document.getElementById("remain");
 
 const HIDDEN_CLASSNAME = "hidden";
 
-// function onLoginsubmit(event) {
-//   event.preventDefault();
+function onLoginsubmit(event) {
 
-//   const username = loginInput.value;
 
-//   loginForm.classList.add(HIDDEN_CLASSNAME);
+  const username = loginInput.value;
 
-//   greeting.innerText = "Hello " + username;
-//   greeting.classList.remove(HIDDEN_CLASSNAME);
-// }
+}
 
 loginForm.addEventListener("submit");
 
