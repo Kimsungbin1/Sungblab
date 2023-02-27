@@ -79,15 +79,16 @@
       </form> -->
 
       <form id="login-form" name="contact" method="POST" data-netlify="true">
+        <div>
         <p>
           <label for="p-name">
-          <input id="p-name" type="text" name="name" placeholder="What is your name?"/></label>
+          <input id="p-name" type="text" maxlength="15" name="name" placeholder="What is your name?" required/></label>
         </p>
-        <p>
+        <!-- <p> -->
           <span id="char">
             <span id="remain">15</span>/15
-          </span>
-        <p>
+          </span> </div>
+        <!-- <p> -->
           <button type="submit">Send</button>
         </p>
       </form>
