@@ -1,6 +1,7 @@
 const PNIE = document.getElementById("p-name");
 const reaminchar = document.getElementById("remain");
 const HIDDEN_CLASSNAME = "hidden";
+const loginForm = document.querySelector("#login-form");
 function update(event) {
   const entered = event.target.value;
   const length = entered.length;
