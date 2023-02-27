@@ -68,16 +68,25 @@
       </section>
 
       <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+
+      <form name="contact" method="POST" data-netlify="true">
         <p>     
           <label for="p-name"></label>
           <input id="p-name" maxlength="15" type="text" placeholder="What is your name?">
+          
+          <button>Log In</button>
+        </form>
         <span id="char">
           <span id="remain">15</span>/15
         </span> </p>
-
-        <button>Log In</button>
-      </form>
-
+        
       <h1 id="greeting" class="hidden"></h1>
       </div>
       <section>
