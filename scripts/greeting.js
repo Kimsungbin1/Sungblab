@@ -8,9 +8,6 @@ const HIDDEN_CLASSNAME = "hidden";
 
 function onLoginsubmit(event) {
 
-
-  const username = loginInput.value;
-
 }
 
 loginForm.addEventListener("submit",  onLoginsubmit);
