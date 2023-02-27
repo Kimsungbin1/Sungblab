@@ -13,7 +13,7 @@ function onLoginsubmit(event) {
 
 }
 
-loginForm.addEventListener("submit");
+loginForm.addEventListener("submit",  onLoginsubmit);
 
 function update(event) {
   const entered = event.target.value;
