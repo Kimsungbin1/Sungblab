@@ -3,7 +3,6 @@ const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
 const PNIE = document.getElementById("p-name");
 const reaminchar = document.getElementById("remain");
-document.querySelector("#username").value
 
 const HIDDEN_CLASSNAME = "hidden";
 
