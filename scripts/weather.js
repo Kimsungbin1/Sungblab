@@ -1,6 +1,3 @@
-// HTML에 날씨 엘리먼트 추가 
-<div id="weather"></div>
-
 // JavaScript 
 const apiKey = "e9051f645c610dfc3ba6d3b817c8cc6a";
 const weatherElement = document.getElementById("weather");
