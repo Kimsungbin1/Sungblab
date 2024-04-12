@@ -64,15 +64,14 @@
   }
 </style>
       <script>
-        window.RufflePlayer = window.RufflePlayer || {};
-window.addEventListener("load", (event) => {
-  const ruffle = window.RufflePlayer.newest();
-  const player = ruffle.createPlayer();
-  const container = document.getElementById("flashGame");
-  container.appendChild(player);
-  player.load("assets/슈의 라면가게.swf");
-});
-      </script>
+        window.addEventListener("load", (event) => {
+          const ruffle = window.RufflePlayer;
+          const player = ruffle.createPlayer();
+          const container = document.getElementById("flashGame");
+          container.appendChild(player);
+          player.load("assets/고군분투.swf");
+        });
+        </script>
 
       <h1 style="text-align: center;">고군분투</h1>
     </section>
