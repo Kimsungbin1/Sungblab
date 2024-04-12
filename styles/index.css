@@ -34,7 +34,7 @@ p {
 
 .p1 {
   font-size: 3rem;
-  padding-bottom: 20rem;
+  padding-bottom: 10rem;
   color: #eee;
 }
 
@@ -221,7 +221,6 @@ span {
 }
 
 #weather {
-  margin-top: 20px;
   padding: 10px;
   font-size: 16px;
   color: #333;
@@ -229,3 +228,43 @@ span {
   border-radius: 5px;
   text-align: center;
 }
+
+.todo-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .todo-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .todo-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .todo-delete {
+    color: red;
+    cursor: pointer;
+  }

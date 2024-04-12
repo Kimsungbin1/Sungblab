@@ -110,9 +110,47 @@
           <div id="weather"></div>
 
       </section>
+      <section>
+
+    <div class="todo-container">
+      <h2 class="todo-title">ToDo List</h2>
+      <input type="text" id="todoInput" class="todo-input" placeholder="Enter a task">
+      <ul id="todoList" class="todo-list"></ul>
+    </div>
+    
+    <script>
+      const todoInput = document.getElementById('todoInput');
+      const todoList = document.getElementById('todoList');
+    
+      todoInput.addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+          const task = todoInput.value.trim();
+          if (task !== '') {
+            addTodoItem(task);
+            todoInput.value = '';
+          }
+        }
+      });
+    
+      function addTodoItem(task) {
+        const li = document.createElement('li');
+        li.className = 'todo-item';
+        li.innerHTML = `
+          <span>${task}</span>
+          <span class="todo-delete" onclick="deleteTodoItem(this)">&#10005;</span>
+        `;
+        todoList.appendChild(li);
+      }
+    
+      function deleteTodoItem(item) {
+        item.parentElement.remove();
+      }
+    </script>
+      </section>
       <p class="p1">WELCOME TO MY WEBSITE</p>
       </div>
     </section>
+
 
   </main>
 </body>
