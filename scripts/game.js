@@ -107,12 +107,11 @@ function resetgamestatus() {
   
   function endgame(winnerid) {
     gameoverelemet.style.display = "block";
-  
     if (winnerid > 0) {
       const winnername = players[winnerid - 1].name;
       gameoverelemet.firstElementChild.firstElementChild.textContent = winnername;
     } else {
-      gameoverelemet.firstElementChild = textContent = "It's a draw!";
+      gameoverelemet.firstElementChild.textContent = "It's a draw!";
     }
   }
   
