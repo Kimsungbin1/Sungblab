@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   <meta name="google-site-verification" content="LYN3Q4GsUBltxZkN5lpMVjB64HQfC62kq0k1M0zW5dY" />
   <meta name="naver-site-verification" content="96f221db0976133427f9e06c49a65e8aad4493a9" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
@@ -31,14 +32,13 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="/styles/about.css" />
     <link rel="stylesheet" href="/styles/shared.css" />
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-
+    
   </head>
   
-<body>
-  <header>
-    <nav class="main-nav">
-      <input type="checkbox" id="isChecked" />
+  <body>
+    <header>
+      <nav class="main-nav">
+        <input type="checkbox" id="isChecked" />
       <label for="isChecked" class="menu-btn">
         <i class="fas fa-bars"></i>
       </label>
@@ -49,36 +49,22 @@
         <li><a href="portfolio.html">portfolio</a></li>
         <li><a href="TicTacToe.html">Tic Tac Toe</a></li>
         <li><a href="game.html">game</a></li>
-
+        
         <li><a class="fa-brands fa-instagram fa-2x" href="https://www.instagram.com/sungblab/" target="_blank"></a></li>
       </ul>
     </nav>
   </header>
   <main>
-
-    <section>
-      <div id="flashGame" style="width: 800px; height: 600px; text-align: center;"></div>
-<style>
-    #flashGame {
-    margin: 20px auto;
-  }
-</style>
-      <script>
-        window.addEventListener("load", (event) => {
-          const ruffle = window.RufflePlayer;
-          const player = ruffle.createPlayer();
-          const container = document.getElementById("flashGame");
-          container.appendChild(player);
-          player.load("assets/고군분투.swf");
-        });
-        </script>
-
-      <h1 style="text-align: center;">고군분투</h1>
-    </section>
-
-
-
-
+    <script>
+      window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("flashGame");
+        container.appendChild(player);
+        player.load("assets/고군분투.swf");
+      });
+      </script>
+  <div id="flashGame" style="width: 800px; height: 600px;"></div>
   </main>
     
             <footer>
