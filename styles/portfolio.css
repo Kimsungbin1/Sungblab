@@ -7,29 +7,36 @@ body {
 main {
   background-color: #57c5b5;
   width: 70%;
-  margin: auto;
   border-radius: 0.5rem;
   padding-top: 0.2rem;
   padding-bottom: 10rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 
 .a1 {
-  font-weight: bold;
-  font-size: 1.2rem;
-  background-color: #57c5b5;
-  padding: 0.3rem;
-  border-radius: 6px;
+  border-radius: 0.5rem;
+  display: inline-block;
+  background-color: #171717;
+  color: #eee;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  
 }
 
 .a1:hover {
-  background-color: #171717;
+  background-color: #c2c8c7;
 }
 
 p {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  margin-bottom: 1.5rem;
+
 }
 
 footer {
