@@ -219,3 +219,13 @@ span {
   font-size: 20px;
 }
 }
+
+#weather {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  text-align: center;
+}
