@@ -2,7 +2,7 @@
 <div id="weather"></div>
 
 // JavaScript 
-const apiKey = "f522959ef248368614a3310231643561";
+const apiKey = "e9051f645c610dfc3ba6d3b817c8cc6a";
 const weatherElement = document.getElementById("weather");
 
 function getLocation() {
