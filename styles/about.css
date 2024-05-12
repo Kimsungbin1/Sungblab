@@ -1,9 +1,9 @@
 body {
-  background-color: #171717;
+  background-color: #ffffff;
 }
 
 main {
-  background-color: #57c5b5;
+  background-color: #57c5b5; opacity: 0.9;  
   width: 70%;
   margin: auto;
   border-radius: 0.5rem;
@@ -33,7 +33,7 @@ p {
 }
 
 footer {
-  color: white;
+  color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   padding-top: 1.5rem;
