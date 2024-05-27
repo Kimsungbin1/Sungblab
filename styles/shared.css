@@ -62,13 +62,10 @@ img {
   display: none;
 }
 @media (max-width: 1500px) {
-    .main-nav {
-        margin: 0;
-      }
-    
+  .main-nav {
+    margin: 0;
+  }
 }
-
-
 
 @media (max-width: 800px) {
   .main-nav {
@@ -80,7 +77,7 @@ img {
     margin-left: 15px;
     font-size: 1.8rem;
   }
-  
+
   .navlinks {
     position: fixed;
     width: 100%;
