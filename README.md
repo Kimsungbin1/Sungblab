@@ -18,6 +18,5 @@
 프로젝트에 대한 질문이나 피드백이 있다면 이메일 또는 깃허브 이슈를 통해 알려주세요.
 
 - 이메일: ksb19558@naver.com
-- 깃허브: [https://github.com/yourusername/sungblab](https://github.com/yourusername/sungblab)
-
+  
 웹사이트 제작 과정에서 많은 시행착오가 있었지만, 이를 통해 성장할 수 있었습니다. 앞으로도 꾸준히 업데이트하고 개선해 나가겠습니다.
