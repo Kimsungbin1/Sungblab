@@ -1,2 +1,23 @@
-# Sungblab
-https://sungblab.netlify.app/
+# Sungblab 포트폴리오 웹사이트
+
+제가 처음으로 만든 포트폴리오 사이트 입니다. 너무 중구난방이기도 하고
+클론코딩들을 많이 참고 하였습니다.
+
+## 기술 스택
+
+- HTML
+- CSS
+- JavaScript
+
+## 기여
+
+이 프로젝트는 개인 포트폴리오 웹사이트이므로 직접적인 기여는 받지 않습니다. 하지만 피드백이나 제안은 언제나 환영합니다.
+
+## 연락처
+
+프로젝트에 대한 질문이나 피드백이 있다면 이메일 또는 깃허브 이슈를 통해 알려주세요.
+
+- 이메일: ksb19558@naver.com
+- 깃허브: [https://github.com/yourusername/sungblab](https://github.com/yourusername/sungblab)
+
+웹사이트 제작 과정에서 많은 시행착오가 있었지만, 이를 통해 성장할 수 있었습니다. 앞으로도 꾸준히 업데이트하고 개선해 나가겠습니다.
