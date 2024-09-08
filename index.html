@@ -40,29 +40,31 @@
         <script src="/scripts/quotes.js" defer></script>
         <script src="/scripts/greeting.js" defer></script>
         <script src="/scripts/weather.js" defer></script>
-
-</head>
-
-<body>
-  <header>
-    <nav class="main-nav">
-      <input type="checkbox" id="isChecked" />
-      <label for="isChecked" class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <a href="index.html" class="logo">Sungblab</a>
-      <ul class="navlinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">portfolio</a></li>
-        <li><a href="TicTacToe.html">Tic Tac Toe</a></li>
-        <li><a class="fa-brands fa-instagram fa-2x" href="https://www.instagram.com/sungblab/" target="_blank"></a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="back">
+        
+      </head>
+      
+      <body>
+        <header>
+          <nav class="main-nav">
+            <input type="checkbox" id="isChecked" />
+            <label for="isChecked" class="menu-btn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <a href="index.html" class="logo">Sungblab</a>
+            <ul class="navlinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">portfolio</a></li>
+              <li><a href="TicTacToe.html">Tic Tac Toe</a></li>
+              <li><a class="fa-brands fa-instagram fa-2x" href="https://www.instagram.com/sungblab/" target="_blank"></a></li>
+            </ul>
+          </nav>
+        </header>
+        
+        
+        <a class="p1" href="https://sungblab.vercel.app/" style="text-align: center;" >웹사이트가 업데이트 되었습니다! 여기로 이동하세요</a>
+        <main>
+        <section id="back">
       <section class="quo">
         <div id="quote">
           <span></span>
@@ -71,17 +73,16 @@
       
       <form id="login-form" name="contact" method="POST" data-netlify="true">
         <div>
-        <p>
-          <label for="p-name">
-          <input id="p-name" type="text" maxlength="15" name="name" placeholder="What is your name?" required/></label>
-                  <span id="char">
+          <p>
+            <label for="p-name">
+              <input id="p-name" type="text" maxlength="15" name="name" placeholder="What is your name?" required/></label>
+              <span id="char">
             <span id="remain">15</span>/15
           </span></p>
          </div>
           <button type="submit">Send</button>
         </p>
       </form>
-
     
       <h1 id="greeting" class="hidden"></h1>
       </div>
